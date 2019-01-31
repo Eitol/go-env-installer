@@ -2,6 +2,7 @@
 
 SCRIPTS_FOLDER=./install
 
+.PHONY: install_go
 install_go: ## Install development env
 	@bash ${SCRIPTS_FOLDER}/deps/install_go
 
