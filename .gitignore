@@ -1,0 +1,36 @@
+build
+node_modules
+.idea
+.idea/*
+.vscode
+*.csv
+*.pb.go
+.~lock*
+debug
+app
+keys/env
+keys/env/*
+keys/.env.dev
+keys/.env.test
+keys/.env.stage
+keys/.env.prod
+test/keys/.env.dev
+
+#OSX Ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
