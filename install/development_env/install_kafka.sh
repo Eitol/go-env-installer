@@ -6,8 +6,8 @@ INSTALL_DIR=/home/kafka/kafka
 KAFKA_FILE=kafka_2.12-2.1.0.tgz
 KAFKA_URL=http://www-eu.apache.org/dist/kafka/2.1.0/${KAFKA_FILE}
 
-sudo cp ../scripts/systemd/third_party/kafka.service /etc/systemd/system/kafka.service
-sudo cp ../scripts/systemd/systemd/third_party/zookeeper.service /etc/systemd/system/zookeeper.service
+sudo cp ../systemd/third_party/kafka.service /etc/systemd/system/kafka.service
+sudo cp ../systemd/third_party/zookeeper.service /etc/systemd/system/zookeeper.service
 sudo useradd ${KAFKA_USER} -m
 
 
